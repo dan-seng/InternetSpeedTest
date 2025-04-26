@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Internet Speed Test</h1>
+            <p class="subtitle">Fast, accurate, and reliable speed testing</p>
+        </header>
+
+        <main class="main-content">
+            <div class="speed-display">
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                </div>
+                <div class="speed-value" id="speed-value">0</div>
+                <div class="speed-unit" id="speed-unit">Mbps</div>
+                <div class="test-status" id="test-status">Ready to test</div>
+            </div>
+
+            <div class="controls">
+                <button id="start-test" class="btn">
+                    <i class="fas fa-tachometer-alt"></i>
+                    Start Test
+                </button>
+            </div>
+
+            <div class="results">
+                <div class="result-item">
+                    <i class="fas fa-download"></i>
+                    <span class="label">Download:</span>
+                    <span class="value" id="download-speed">-</span>
+                </div>
+                <div class="result-item">
+                    <i class="fas fa-upload"></i>
+                    <span class="label">Upload:</span>
+                    <span class="value" id="upload-speed">-</span>
+                </div>
+                <div class="result-item">
+                    <i class="fas fa-clock"></i>
+                    <span class="label">Ping:</span>
+                    <span class="value" id="ping">-</span>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Real-time Results</h3>
+                    <p>Watch your speed test progress in real-time with live updates</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-server"></i>
+                    <h3>Multiple Servers</h3>
+                    <p>Tests against multiple servers for the most accurate results</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Reliable Testing</h3>
+                    <p>Advanced algorithms ensure accurate speed measurements</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="social-links">
+            <h2>Connect with Developer</h2>
+            <div class="social-icons">
+                <a href="https://facebook.com/your-profile" class="social-icon" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://t.me/your-profile" class="social-icon" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://instagram.com/your-profile" class="social-icon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/your-number" class="social-icon" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/your-profile" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright"> 2025 Internet Speed Test</p>
+                <p class="developer">
+                    Developed with <i class="fas fa-heart pulse"></i> by 
+                    <a href="https://github.com/your-profile" target="_blank">Your Name</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
