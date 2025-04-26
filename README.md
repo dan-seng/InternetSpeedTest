@@ -2,7 +2,11 @@
 
 A beautiful, modern, and accurate internet speed testing application that provides real-time measurements of your internet connection's performance.
 
-![Speed Test Preview](https://dan-seng.github.io/InternetSpeedTest/)
+## 🌐 Live Preview
+
+[Click here to try the Speed Test](https://dan-seng.github.io/InternetSpeedTest/)
+
+![Speed Test Preview](https://raw.githubusercontent.com/dan-seng/InternetSpeedTest/main/preview.png)
 
 ## ✨ Features
 
@@ -105,7 +109,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Developer
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by [Daniel Gidey]
 - GitHub: [@dan-seng](https://github.com/dan-seng)
 - Website: [danseng.com](https://dan-seng.github.io/Portfolio)
 
