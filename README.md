@@ -2,7 +2,7 @@
 
 A beautiful, modern, and accurate internet speed testing application that provides real-time measurements of your internet connection's performance.
 
-![Speed Test Preview](preview.png)
+![Speed Test Preview](https://dan-seng.github.io/InternetSpeedTest/)
 
 ## ✨ Features
 
