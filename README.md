@@ -106,8 +106,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 Created with ❤️ by [Your Name]
-- GitHub: [@your-username](https://github.com/your-username)
-- Website: [your-website.com](https://your-website.com)
+- GitHub: [@dan-seng](https://github.com/dan-seng)
+- Website: [danseng.com](https://dan-seng.github.io/Portfolio)
 
 ## 🙏 Acknowledgments
 
