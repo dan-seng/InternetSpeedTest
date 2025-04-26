@@ -11,11 +11,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Speed Test</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Speed Test</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <div class="container">
-        <header class="header">
-            <h1>Internet Speed Test</h1>
-            <p class="subtitle">Fast, accurate, and reliable speed testing</p>
-        </header>
+        <div class="hero-section">
+            <h2>Check Your Internet Speed</h2>
+            <p class="subtitle">Fast, accurate, and reliable speed testing tool</p>
+        </div>
 
         <main class="main-content">
             <div class="speed-display">
@@ -71,33 +86,88 @@
             </div>
         </main>
 
-        <div class="social-links">
-            <h2>Connect with Developer</h2>
-            <div class="social-icons">
-                <a href="https://facebook.com/your-profile" class="social-icon" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://t.me/your-profile" class="social-icon" target="_blank">
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="https://instagram.com/your-profile" class="social-icon" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://wa.me/your-number" class="social-icon" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://github.com/your-profile" class="social-icon" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
+        <section id="features" class="features-section">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Real-Time Speed Test</h3>
+                    <p>Get instant download and upload speed measurements with high accuracy</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Multiple Servers</h3>
+                    <p>Tests against multiple servers to ensure the most accurate results</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Detailed Analytics</h3>
+                    <p>View comprehensive metrics including ping, jitter, and latency</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Fully responsive design works perfectly on all devices</p>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our Internet Speed Test tool provides accurate measurements of your internet connection's performance. Using advanced algorithms and multiple test servers, we ensure reliable results every time.</p>
+                    <p>Built with modern web technologies, this tool offers a seamless experience across all devices while maintaining high accuracy in speed measurements.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Users</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-globe"></i>
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-server"></i>
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                </div>
+                <div class="developer-info">
+                    <h3>Developer</h3>
+                    <div class="social-icons">
+                        <a href="mailto:danielgidey2016@gmail.com" class="social-icon" title="Email" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/dan-seng" class="social-icon" title="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/dan_gidey" class="social-icon" title="Telegram" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://wa.me/251945012123" class="social-icon" title="WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://web.facebook.com/dan16son" class="social-icon" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/_dan_el" class="social-icon" title="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer class="footer">
             <div class="footer-content">
                 <p class="copyright"> 2025 Internet Speed Test</p>
                 <p class="developer">
                     Developed with <i class="fas fa-heart pulse"></i> by 
-                    <a href="https://github.com/your-profile" target="_blank">Your Name</a>
+                    <a href="https://github.com/dan-seng" target="_blank">Daniel Gidey</a>
                 </p>
             </div>
         </footer>
