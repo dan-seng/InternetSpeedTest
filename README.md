@@ -16,11 +16,6 @@ A beautiful, modern, and accurate internet speed testing application that provid
   - Ping latency testing
   - Live progress updates
 
-- **Advanced Testing Algorithm**
-  - Multiple server testing for accuracy
-  - Adaptive test sizes based on connection
-  - Statistical outlier removal
-  - TCP/IP overhead compensation
 
 - **Modern UI/UX**
   - Beautiful glassmorphism design
