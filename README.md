@@ -2,11 +2,7 @@
 
 A beautiful, modern, and accurate internet speed testing application that provides real-time measurements of your internet connection's performance.
 
-## 🌐 Live Preview
 
-[Click here to try the Speed Test](https://dan-seng.github.io/InternetSpeedTest/)
-
-![Speed Test Preview](https://raw.githubusercontent.com/dan-seng/InternetSpeedTest/main/preview.png)
 
 ## ✨ Features
 
@@ -106,10 +102,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Created with ❤️ by [Daniel Gidey]
 - GitHub: [@dan-seng](https://github.com/dan-seng)
-- Website: [danseng.com](https://dan-seng.github.io/Portfolio)
+- Website: [daniel-gidey.vercel.appp](https://daniel-gidey.vercel.app)
 
-## 🙏 Acknowledgments
-
-- Font Awesome for the beautiful icons
-- Google Fonts for the Inter font family
-- Multiple test servers for reliable speed testing
